@@ -1,0 +1,24 @@
+O dataset utilizado no trabalho é identificado pelo arquivo: ***discentes.csv***
+Atributos do dataset e seu significado:
+ - matricula: Atributo que identifica de forma única cada discente. As matrículas reais foram substituidas por valores inteiros para evitar eventual identificação.
+ - dataNascimento: Data de nascimento do discente.
+ - IRA: Coeficiente de rendimento dos discentes, campo do tipo ponto flutuante.
+ - curriculo: indica o curriculo do discente. Apesar do dataset conter mais de dois curriculos, no artigo e estudo foram utilizados apenas dois, conformne descrito no artigo. A retirada dos discentes foi feita no script.
+ - anoPeriodoLetivoInicial: Ano e período de ingresso dos discentes.
+ - formaIngresso: forma de ingresso, majoritariamente a entrada é pelo ENEM.
+ - periodoLetivoAtual: indica a quantiade de perídos que o discente cursou. A saída pode ocorrer pela conclusão, abandono ou desistência. Campo do tipo interio.
+ - suspensoes: campo inteiro que indica quantos períodos o discente trancou.
+ - prorrogacoes:quantidade de prorrogações que o discente solicita após o tempo regular do curso.
+ - tipoSaida: indica qual foi a saída do discente. É redudante com a situação.
+ - idade: valor inteiro que indica a idade do discente.
+ - situacao: indica um das situações do discente:
+                ATIVO: Discente que está cursando  as disciplinas sem problemas.
+                CONCLUIDO: Discentes que terminaram e concluiram o curso
+                EVADIDO: Discentes que sairam do curso, ou por desligamento por ultrapassar o tempo máximo de integralização ou por que desistiu do curso. Qualquer desligamneto do curso.
+                TRANCADO: Discente que estão com o curso trancado no momento da construção do dataset
+
+ - sucesso: Quantidade de componentes curriculares que o discente foi aprovado.
+ - insucesso: Quantidade de componentes curriculares que o discente perdeu/reprovou.
+ - total = sucesso + insucesso
+
+O arquivo: tabelas-por-ppc.csv é criado no script: script-2-modelo-sobrevivencia-entradas-evasao-modelo-Kapler-Meier-n-parametrico.R e gera a tabela utilizada no artigo.

@@ -1,0 +1,26 @@
+{
+    "id": "0FC8132C",
+    "path": "~/Documents/02-Trabalhos/01-Orientacoes.artigos/2024-evasao/R/fontes-git/script-2-modelo-sobrevivencia-entradas-evasao-modelo-Kapler-Meier-n-parametrico.R",
+    "project_path": "script-2-modelo-sobrevivencia-entradas-evasao-modelo-Kapler-Meier-n-parametrico.R",
+    "type": "r_source",
+    "hash": "3570351952",
+    "contents": "",
+    "dirty": false,
+    "created": 1739375304504.0,
+    "source_on_save": true,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "44,55",
+        "scrollLine": "35"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1739375711,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1739375711712,
+    "read_only": false,
+    "read_only_alternatives": []
+}
