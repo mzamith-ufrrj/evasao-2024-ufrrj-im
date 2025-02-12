@@ -25,13 +25,12 @@ Atributos do dataset e seu significado:
  - **`tipoSaida`**: indica qual foi a saída do discente. É redudante com a situação.
  - **`idade`**: valor inteiro que indica a idade do discente.
  - **`situacao`**: indica um das situações do discente:
-                ATIVO: Discente que está cursando  as disciplinas sem problemas.
-                CONCLUIDO: Discentes que terminaram e concluiram o curso
-                EVADIDO: Discentes que sairam do curso, ou por desligamento por ultrapassar o tempo máximo de integralização ou por que desistiu do curso. Qualquer desligamneto do curso.
-                TRANCADO: Discente que estão com o curso trancado no momento da construção do dataset
-
+   - ATIVO: Discente que está cursando  as disciplinas sem problemas.
+   - CONCLUIDO: Discentes que terminaram e concluiram o curso
+   - EVADIDO: Discentes que sairam do curso, ou por desligamento por ultrapassar o tempo máximo de integralização ou por que desistiu do curso. Qualquer desligamneto do curso.
+    - TRANCADO: Discente que estão com o curso trancado no momento da construção do dataset
  - **`sucesso`**: Quantidade de componentes curriculares que o discente foi aprovado.
  - **`insucesso`**: Quantidade de componentes curriculares que o discente perdeu/reprovou.
- - **`total`** = sucesso + insucesso
+ - **`total`**: sucesso + insucesso
 
-O arquivo: tabelas-por-ppc.csv é criado no script: script-2-modelo-sobrevivencia-entradas-evasao-modelo-Kapler-Meier-n-parametrico.R e gera a tabela utilizada no artigo.
+O arquivo: tabelas-por-ppc.csv é criado no script: ***script-2-modelo-sobrevivencia-entradas-evasao-modelo-Kapler-Meier-n-parametrico.R*** e gera a tabela utilizada no artigo.
